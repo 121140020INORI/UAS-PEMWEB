@@ -1,10 +1,10 @@
 **Readme penjelasan setiap bagian kriteria penilaian berdasarkan Soal UAS pengweb 2023**
 
-Link Website: https://121140020inori.000webhostapp.com/
-Website yang digunakan untuk hosting: 000Webhost
-Username: id21685501_121140020_uas_pemweb
-Password: 121140020_Uas
-Database name: id21685501_maganghumas
+▪️ Link Website: https://121140020inori.000webhostapp.com/
+▪️ Website yang digunakan untuk hosting: 000Webhost
+▪️ Username: id21685501_121140020_uas_pemweb
+▪️ Password: 121140020_Uas
+▪️ Database name: id21685501_maganghumas
 
 Bagian 1: Client-side Programming 
 1.1 Buatlah sebuah halaman web sederhana yang memanfaatkan JavaScript untuk melakukan manipulasi DOM.
