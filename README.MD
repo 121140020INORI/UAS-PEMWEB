@@ -1,5 +1,11 @@
 **Readme penjelasan setiap bagian kriteria penilaian berdasarkan Soal UAS pengweb 2023**
 
+Link Website: https://121140020inori.000webhostapp.com/
+Website yang digunakan untuk hosting: 000Webhost
+Username: id21685501_121140020_uas_pemweb
+Password: 121140020_Uas
+Database name: id21685501_maganghumas
+
 Bagian 1: Client-side Programming 
 1.1 Buatlah sebuah halaman web sederhana yang memanfaatkan JavaScript untuk melakukan manipulasi DOM.
 :: perintah di atas meminta mahasiswa  untuk membuat halaman web sederhana menggunakan JavaScript untuk mengubah struktur atau konten dari dokumen HTML atau XML untuk melakukan manipulasi DOM (Document Object Model). Manipulasi yang dilakukan adalah CRUD dengan isi kolom (Nama, NIM, Prodi, Angkatan, Posisi, Gender, Nomor WA, dan Email). dan semua data ini ditampilkan dari server ke dalam suatu halaman menggunakan tag 'table'.
