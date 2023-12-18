@@ -1,3 +1,7 @@
+<?php
+session_start(); // Memulai sesi
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,12 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Input Peserta Magang</title>
     <link rel="stylesheet" href="CSS/create.css">
-    <script src="path/to/handle.js"></script>
+    <script src="handle.js"></script>
 </head>
 <body>
 
 <?php
-session_start(); // Memulai sesi
 
 include 'connection.php';
 
@@ -49,9 +52,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['message'] = "Error: " . mysqli_error($koneksi);
         }
     }
-
-    header("location: index.php"); // Redirect ke halaman index
-    exit();
+    echo '<script> window.location.href = "index.php"; </script>'; // Redirect ke halaman index
+    
 }
 ?>
 
@@ -87,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <input type="submit" value="Submit">
 </form>
 
-<script src="path/to/JS.js"></script>
+<script src="JS.js"></script>
 
 
 </body>
